@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "react component for qrcode login with Server-Sent Event",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exoticknight/SSEQRCode.git"
+  },
   "files": [
     "lib",
     "LICENSE",
