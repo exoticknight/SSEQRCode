@@ -15,7 +15,7 @@
   ],
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "rm ./lib/* && tsc",
+    "build": "rm -rf lib && tsc",
     "prepublish": "npm run build"
   },
   "keywords": [
@@ -29,6 +29,7 @@
     "@types/react": "^16.0.40",
     "@types/react-dom": "^16.0.4",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "typescript": "^2.7.2"
   }
 }
