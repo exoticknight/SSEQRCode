@@ -64,7 +64,7 @@ import { SSEQRCode } from 'SSEQRCode'
 
 class App extends React.Component {
   handleScan = ret => {
-    alert(`Logged in as #{ret}`)
+    alert(`Logged in as ${ret}`)
   }
 
   render() {
