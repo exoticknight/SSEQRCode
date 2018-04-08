@@ -1,6 +1,6 @@
 {
   "name": "sseqrcode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "react component for qrcode login with Server-Sent Event",
   "main": "main.js",
   "repository": {
