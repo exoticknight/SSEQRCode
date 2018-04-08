@@ -16,7 +16,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "prepare": "npm run build"
+    "patch": "npm run build && npm version patch"
   },
   "keywords": [
     "react",
