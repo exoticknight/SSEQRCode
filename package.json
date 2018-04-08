@@ -16,7 +16,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "react",
